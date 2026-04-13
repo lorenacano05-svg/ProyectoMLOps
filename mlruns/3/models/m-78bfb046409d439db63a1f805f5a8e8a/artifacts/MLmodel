@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Lorena/Desktop/ULore/SegundoSemestre/MLOps/EDA_trabajofinal/mlruns/3/models/m-78bfb046409d439db63a1f805f5a8e8a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-78bfb046409d439db63a1f805f5a8e8a
+model_size_bytes: 3928
+model_uuid: m-78bfb046409d439db63a1f805f5a8e8a
+prompts: null
+run_id: 2b482b1ed1d54b808a9d3af7a5a8959a
+utc_time_created: '2026-04-13 00:15:57.902033'
