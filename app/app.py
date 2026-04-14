@@ -14,9 +14,8 @@ import uvicorn
 
 # ── Configuración ─────────────────────────────────────────────────────────────
 
-MODEL_PATH    = Path("model/model/model.pkl")
-METADATA_PATH = Path("model/metadata.json")
-
+MODEL_PATH    = Path(__file__).parent.parent / "model" / "model" / "model.pkl"
+METADATA_PATH = Path(__file__).parent.parent / "model" / "metadata.json"
 
 # ── Cargar modelo al iniciar ──────────────────────────────────────────────────
 
@@ -67,7 +66,7 @@ class PrediccionOutput(BaseModel):
 
 @app.get("/", response_class=HTMLResponse, tags=["Interfaz"])
 def root():
-    html_path = Path("index.html")
+    html_path = Path(__file__).parent / "index.html"
     if html_path.exists():
         return HTMLResponse(content=html_path.read_text(encoding="utf-8"))
     return HTMLResponse(content="<h1>index.html no encontrado</h1>", status_code=404)

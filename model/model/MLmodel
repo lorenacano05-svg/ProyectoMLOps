@@ -1,4 +1,4 @@
-artifact_path: file:///C:/Users/Lorena/Desktop/ULore/SegundoSemestre/MLOps/EDA_trabajofinal/mlruns/4/models/m-4863f35a45844842bcf6183b8b8b21ce/artifacts
+artifact_path: mlflow-artifacts:/5/models/m-333f869de5d64044846dd3fa01fe3832/artifacts
 flavors:
   python_function:
     env:
@@ -15,9 +15,9 @@ flavors:
     sklearn_version: 1.8.0
     skops_trusted_types: null
 mlflow_version: 3.11.1
-model_id: m-4863f35a45844842bcf6183b8b8b21ce
+model_id: m-333f869de5d64044846dd3fa01fe3832
 model_size_bytes: 3928
-model_uuid: m-4863f35a45844842bcf6183b8b8b21ce
+model_uuid: m-333f869de5d64044846dd3fa01fe3832
 prompts: null
-run_id: 8fb64fe04f414c85b388a8f60eb3913f
-utc_time_created: '2026-04-14 12:31:43.930225'
+run_id: dddb43e587dc4e83b36d28de156d65fa
+utc_time_created: '2026-04-14 23:02:14.749895'

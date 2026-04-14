@@ -25,8 +25,8 @@ from sklearn.metrics import classification_report, roc_auc_score
 # ── Configuración ─────────────────────────────────────────────────────────────
 
 MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5001")
-EXPERIMENT_NAME     = os.getenv("EXPERIMENT_NAME", "stroke-prediction2")
-DATA_PATH           = os.getenv("DATA_PATH", "healthcare-dataset-stroke-data.csv")
+EXPERIMENT_NAME     = os.getenv("EXPERIMENT_NAME", "stroke-predictionX")
+DATA_PATH           = os.getenv("DATA_PATH", "data/healthcare-dataset-stroke-data.csv")
 MODEL_OUTPUT_DIR    = os.getenv("MODEL_OUTPUT_DIR", "model")
 
 

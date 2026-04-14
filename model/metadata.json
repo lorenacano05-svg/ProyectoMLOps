@@ -1,9 +1,9 @@
 {
-    "run_id": "8fb64fe04f414c85b388a8f60eb3913f",
+    "run_id": "dddb43e587dc4e83b36d28de156d65fa",
     "nombre": "Logistic Regression",
     "recall_class_1": 0.8,
     "precision_class_1": 0.13793103448275862,
     "roc_auc": 0.8436831275720165,
     "model_path": "C:\\Users\\Lorena\\Desktop\\ULore\\SegundoSemestre\\MLOps\\Trabajofinal_MLOps\\model\\model\\",
-    "experiment_name": "stroke-prediction2"
+    "experiment_name": "stroke-predictionX"
 }

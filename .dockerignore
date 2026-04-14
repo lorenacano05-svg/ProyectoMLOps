@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+.python-version
+mlruns/
+mlartifacts/
+mlflow.db
+data/
+notebooks/
+scripts/
+docker/
+*.ipynb
