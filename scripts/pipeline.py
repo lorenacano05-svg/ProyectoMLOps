@@ -103,8 +103,8 @@ def entrenar_modelos(
     modelos = [
         {
             "nombre":       "Logistic Regression",
-            "clasificador": LogisticRegression(max_iter=2000, class_weight="balanced"),
-            "params":       {"max_iter": 2000, "class_weight": "balanced"},
+            "clasificador": LogisticRegression(max_iter=1000, class_weight="balanced"),
+            "params":       {"max_iter": 1000, "class_weight": "balanced"},
             "familia":      "LR"
         },
         {
